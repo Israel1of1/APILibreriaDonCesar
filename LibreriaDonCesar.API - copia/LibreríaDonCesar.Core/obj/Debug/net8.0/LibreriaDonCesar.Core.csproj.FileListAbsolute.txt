@@ -1,0 +1,24 @@
+C:\Users\User\OneDrive - UNAN-Managua\Documentos\ProyectoIntegrador4\LibreriaDonCesar.API\LibreríaDonCesar.Core\bin\Debug\net8.0\LibreriaDonCesar.Core.deps.json
+C:\Users\User\OneDrive - UNAN-Managua\Documentos\ProyectoIntegrador4\LibreriaDonCesar.API\LibreríaDonCesar.Core\bin\Debug\net8.0\LibreriaDonCesar.Core.dll
+C:\Users\User\OneDrive - UNAN-Managua\Documentos\ProyectoIntegrador4\LibreriaDonCesar.API\LibreríaDonCesar.Core\bin\Debug\net8.0\LibreriaDonCesar.Core.pdb
+C:\Users\User\OneDrive - UNAN-Managua\Documentos\ProyectoIntegrador4\LibreriaDonCesar.API\LibreríaDonCesar.Core\obj\Debug\net8.0\LibreriaDonCesar.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive - UNAN-Managua\Documentos\ProyectoIntegrador4\LibreriaDonCesar.API\LibreríaDonCesar.Core\obj\Debug\net8.0\LibreriaDonCesar.Core.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive - UNAN-Managua\Documentos\ProyectoIntegrador4\LibreriaDonCesar.API\LibreríaDonCesar.Core\obj\Debug\net8.0\LibreriaDonCesar.Core.AssemblyInfo.cs
+C:\Users\User\OneDrive - UNAN-Managua\Documentos\ProyectoIntegrador4\LibreriaDonCesar.API\LibreríaDonCesar.Core\obj\Debug\net8.0\LibreriaDonCesar.Core.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive - UNAN-Managua\Documentos\ProyectoIntegrador4\LibreriaDonCesar.API\LibreríaDonCesar.Core\obj\Debug\net8.0\LibreriaDonCesar.Core.sourcelink.json
+C:\Users\User\OneDrive - UNAN-Managua\Documentos\ProyectoIntegrador4\LibreriaDonCesar.API\LibreríaDonCesar.Core\obj\Debug\net8.0\LibreriaDonCesar.Core.dll
+C:\Users\User\OneDrive - UNAN-Managua\Documentos\ProyectoIntegrador4\LibreriaDonCesar.API\LibreríaDonCesar.Core\obj\Debug\net8.0\refint\LibreriaDonCesar.Core.dll
+C:\Users\User\OneDrive - UNAN-Managua\Documentos\ProyectoIntegrador4\LibreriaDonCesar.API\LibreríaDonCesar.Core\obj\Debug\net8.0\LibreriaDonCesar.Core.pdb
+C:\Users\User\OneDrive - UNAN-Managua\Documentos\ProyectoIntegrador4\LibreriaDonCesar.API\LibreríaDonCesar.Core\obj\Debug\net8.0\ref\LibreriaDonCesar.Core.dll
+C:\Users\User\OneDrive - UNAN-Managua\Documentos\ProyectoIntegrador4\LibreriaDonCesar.API final\LibreriaDonCesar.API - copia\LibreríaDonCesar.Core\bin\Debug\net8.0\LibreriaDonCesar.Core.deps.json
+C:\Users\User\OneDrive - UNAN-Managua\Documentos\ProyectoIntegrador4\LibreriaDonCesar.API final\LibreriaDonCesar.API - copia\LibreríaDonCesar.Core\bin\Debug\net8.0\LibreriaDonCesar.Core.dll
+C:\Users\User\OneDrive - UNAN-Managua\Documentos\ProyectoIntegrador4\LibreriaDonCesar.API final\LibreriaDonCesar.API - copia\LibreríaDonCesar.Core\bin\Debug\net8.0\LibreriaDonCesar.Core.pdb
+C:\Users\User\OneDrive - UNAN-Managua\Documentos\ProyectoIntegrador4\LibreriaDonCesar.API final\LibreriaDonCesar.API - copia\LibreríaDonCesar.Core\obj\Debug\net8.0\LibreriaDonCesar.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive - UNAN-Managua\Documentos\ProyectoIntegrador4\LibreriaDonCesar.API final\LibreriaDonCesar.API - copia\LibreríaDonCesar.Core\obj\Debug\net8.0\LibreriaDonCesar.Core.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive - UNAN-Managua\Documentos\ProyectoIntegrador4\LibreriaDonCesar.API final\LibreriaDonCesar.API - copia\LibreríaDonCesar.Core\obj\Debug\net8.0\LibreriaDonCesar.Core.AssemblyInfo.cs
+C:\Users\User\OneDrive - UNAN-Managua\Documentos\ProyectoIntegrador4\LibreriaDonCesar.API final\LibreriaDonCesar.API - copia\LibreríaDonCesar.Core\obj\Debug\net8.0\LibreriaDonCesar.Core.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive - UNAN-Managua\Documentos\ProyectoIntegrador4\LibreriaDonCesar.API final\LibreriaDonCesar.API - copia\LibreríaDonCesar.Core\obj\Debug\net8.0\LibreriaDonCesar.Core.sourcelink.json
+C:\Users\User\OneDrive - UNAN-Managua\Documentos\ProyectoIntegrador4\LibreriaDonCesar.API final\LibreriaDonCesar.API - copia\LibreríaDonCesar.Core\obj\Debug\net8.0\LibreriaDonCesar.Core.dll
+C:\Users\User\OneDrive - UNAN-Managua\Documentos\ProyectoIntegrador4\LibreriaDonCesar.API final\LibreriaDonCesar.API - copia\LibreríaDonCesar.Core\obj\Debug\net8.0\refint\LibreriaDonCesar.Core.dll
+C:\Users\User\OneDrive - UNAN-Managua\Documentos\ProyectoIntegrador4\LibreriaDonCesar.API final\LibreriaDonCesar.API - copia\LibreríaDonCesar.Core\obj\Debug\net8.0\LibreriaDonCesar.Core.pdb
+C:\Users\User\OneDrive - UNAN-Managua\Documentos\ProyectoIntegrador4\LibreriaDonCesar.API final\LibreriaDonCesar.API - copia\LibreríaDonCesar.Core\obj\Debug\net8.0\ref\LibreriaDonCesar.Core.dll
