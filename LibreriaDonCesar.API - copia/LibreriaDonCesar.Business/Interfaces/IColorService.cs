@@ -1,10 +1,12 @@
-﻿using LibreriaDonCesar.core.Common;
+﻿using LibreriaDonCesar.Business.DTOs;
+using LibreriaDonCesar.core.Common;
+using LibreriaDonCesar.Core.Entities;
 using System;
 using System.Collections.Generic;
-using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Color = LibreriaDonCesar.Core.Entities.Color;
 
 namespace LibreriaDonCesar.Business.Interfaces
 {
@@ -15,5 +17,6 @@ namespace LibreriaDonCesar.Business.Interfaces
         Task<ServiceResponse<Color>> GetByNameAsync(string name);
         Task<ServiceResponse<Color>> CreateAsync(CreateColorDto newColor);
         Task<ServiceResponse<Color>> UpdateAsync(int id, UpdateColorDto color);
+        Task<ServiceResponse<Color>> SetStateAsync(int id, bool state);
     }
 }

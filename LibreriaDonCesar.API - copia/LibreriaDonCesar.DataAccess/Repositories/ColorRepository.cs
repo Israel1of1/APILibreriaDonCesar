@@ -9,6 +9,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Color = LibreriaDonCesar.Core.Entities.Color;
 
 namespace LibreriaDonCesar.DataAccess.Repositories
 {
@@ -21,11 +22,9 @@ namespace LibreriaDonCesar.DataAccess.Repositories
             _connectionString = configuration.GetConnectionString("DefaultConnection")!;
         }
 
-
         public async Task<RepositoryResponse<IEnumerable<Color>>> GetAllAsync()
         {
-            var color = new List<Color>();
-
+            var colors = new List<Color>();
             var response = new RepositoryResponse<IEnumerable<Color>>();
 
             try
@@ -42,31 +41,26 @@ namespace LibreriaDonCesar.DataAccess.Repositories
                     {
                         while (await reader.ReadAsync())
                         {
-                            color.Add(new Color
+                            colors.Add(new Color
                             {
                                 Id = (int)reader["Id"],
-                                ColorName = reader["ColorName"].ToString()!,
-                                State = reader["State"] != DBNull.Value ? (bool)reader["State"] : false
+                                ColorName = reader["ColorName"].ToString()!
                             });
                         }
                     }
 
                     var returnedValue = Convert.ToInt32(cmd.Parameters["@ReturnValue"].Value);
 
-                    response.Data = color;
+                    response.Data = colors;
                     response.OperationStatusCode = returnedValue;
                     response.Message = "Operacion exitosa";
-
-
                 }
             }
             catch (SqlException ex)
             {
                 response.Data = null;
                 response.OperationStatusCode = ex.Number;
-
             }
-
             catch (Exception ex)
             {
                 return new RepositoryResponse<IEnumerable<Color>>
@@ -79,8 +73,7 @@ namespace LibreriaDonCesar.DataAccess.Repositories
             return response;
         }
 
-
-        public async Task<RepositoryResponse<UnitMeasure>> GetByIdAsync(int id)
+        public async Task<RepositoryResponse<Color>> GetByIdAsync(int id)
         {
             var colorReturned = new Color();
             try
@@ -98,8 +91,7 @@ namespace LibreriaDonCesar.DataAccess.Repositories
                         if (await reader.ReadAsync())
                         {
                             colorReturned.Id = (int)reader["Id"];
-                            colorReturned.ColorName = (string)reader["ColorName"];
-                            colorReturned.State = (bool)reader["State"];
+                            colorReturned.ColorName = reader["ColorName"].ToString()!;
                         }
                     }
 
@@ -115,38 +107,35 @@ namespace LibreriaDonCesar.DataAccess.Repositories
             }
             catch (SqlException ex)
             {
-                return new RepositoryResponse<UnitMeasure>
+                return new RepositoryResponse<Color>
                 {
                     Data = null,
                     OperationStatusCode = ex.Number,
                     Message = ex.Message
                 };
-
             }
-
             catch (Exception ex)
             {
-                return new RepositoryResponse<UnitMeasure>
+                return new RepositoryResponse<Color>
                 {
                     Data = null,
                     OperationStatusCode = -1,
                     Message = ex.Message
                 };
             }
-
         }
 
-        public async Task<RepositoryResponse<UnitMeasure>> GetByNameAsync(string name)
+        public async Task<RepositoryResponse<Color>> GetByNameAsync(string name)
         {
-            var unitMeasure = new UnitMeasure();
-            var response = new RepositoryResponse<UnitMeasure>();
+            var colorReturned = new Color();
+            var response = new RepositoryResponse<Color>();
             try
             {
                 using (SqlConnection connection = new SqlConnection(_connectionString))
                 {
                     await connection.OpenAsync();
 
-                    SqlCommand cmd = new SqlCommand("USP_GetUnitMeasureByName", connection);
+                    SqlCommand cmd = new SqlCommand("USP_GetColorByName", connection);
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Parameters.AddWithValue("@Name", name);
                     cmd.Parameters.Add("@ReturnValue", SqlDbType.Int).Direction = ParameterDirection.ReturnValue;
@@ -155,21 +144,19 @@ namespace LibreriaDonCesar.DataAccess.Repositories
                     {
                         if (await reader.ReadAsync())
                         {
-                            unitMeasure.Id = (int)reader["Id"];
-                            unitMeasure.UnitMeasureName = reader["UnitMeasureName"].ToString()!;
-                            unitMeasure.State = (bool)reader["State"];
+                            colorReturned.Id = (int)reader["Id"];
+                            colorReturned.ColorName = reader["ColorName"].ToString()!;
                         }
-
                         else
                         {
-                            unitMeasure = new UnitMeasure();
+                            colorReturned = new Color();
                         }
                     }
 
                     //capturar codigo de retorno
                     var returnedValue = Convert.ToInt32(cmd.Parameters["@ReturnValue"].Value);
 
-                    response.Data = unitMeasure;
+                    response.Data = colorReturned;
                     response.OperationStatusCode = returnedValue;
 
                     return response;
@@ -179,73 +166,63 @@ namespace LibreriaDonCesar.DataAccess.Repositories
             {
                 response.Data = null;
                 response.OperationStatusCode = ex.Number;
-
                 return response;
-
             }
-
             catch (Exception ex)
             {
-                return new RepositoryResponse<UnitMeasure>
+                return new RepositoryResponse<Color>
                 {
                     Data = null,
                     OperationStatusCode = -1,
                     Message = ex.Message
                 };
             }
-
-
-
         }
 
-
-        public async Task<RepositoryResponse<UnitMeasure>> AddAsync(UnitMeasure unitMeasure)
+        public async Task<RepositoryResponse<Color>> AddAsync(Color color)
         {
-            var unitMeasureReturned = new UnitMeasure();
+            var colorReturned = new Color();
             try
             {
                 using (SqlConnection connection = new SqlConnection(_connectionString))
                 {
                     await connection.OpenAsync();
-                    SqlCommand cmd = new SqlCommand("USP_InsertNewUnitMeasure", connection);
+                    SqlCommand cmd = new SqlCommand("USP_InsertNewColor", connection);
                     cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.AddWithValue("@UnitMeasureName", unitMeasure.UnitMeasureName);
+                    cmd.Parameters.AddWithValue("@ColorName", color.ColorName);
                     cmd.Parameters.Add("@ReturnValue", SqlDbType.Int).Direction = ParameterDirection.ReturnValue;
 
                     using (var reader = await cmd.ExecuteReaderAsync())
                     {
                         if (await reader.ReadAsync())
                         {
-                            unitMeasureReturned.Id = (int)reader["Id"];
-                            unitMeasureReturned.UnitMeasureName = (string)reader["UnitMeasureName"];
-                            unitMeasureReturned.State = (bool)reader["State"];
+                            colorReturned.Id = (int)reader["Id"];
+                            colorReturned.ColorName = reader["ColorName"].ToString()!;
                         }
                     }
 
                     //capturar codigo de retorno
                     var retornedValue = Convert.ToInt32(cmd.Parameters["@ReturnValue"].Value);
 
-                    return new RepositoryResponse<UnitMeasure>
+                    return new RepositoryResponse<Color>
                     {
-                        Data = unitMeasureReturned,
+                        Data = colorReturned,
                         OperationStatusCode = retornedValue,
                     };
                 }
             }
             catch (SqlException ex)
             {
-                return new RepositoryResponse<UnitMeasure>
+                return new RepositoryResponse<Color>
                 {
                     Data = null,
                     OperationStatusCode = ex.Number,
                     Message = ex.Message
                 };
-
             }
-
             catch (Exception ex)
             {
-                return new RepositoryResponse<UnitMeasure>
+                return new RepositoryResponse<Color>
                 {
                     Data = null,
                     OperationStatusCode = -1,
@@ -254,55 +231,51 @@ namespace LibreriaDonCesar.DataAccess.Repositories
             }
         }
 
-        public async Task<RepositoryResponse<UnitMeasure>> UpdateAsync(int id, UnitMeasure unitMeasure)
+        public async Task<RepositoryResponse<Color>> UpdateAsync(int id, Color color)
         {
-            var unitMeasureUpdated = new UnitMeasure();
+            var colorUpdated = new Color();
             try
             {
                 using (SqlConnection connection = new SqlConnection(_connectionString))
                 {
                     await connection.OpenAsync();
 
-                    SqlCommand cmd = new SqlCommand("USP_UpdateUnitMeasure", connection);
+                    SqlCommand cmd = new SqlCommand("USP_UpdateColor", connection);
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Parameters.AddWithValue("@Id", id);
-                    cmd.Parameters.AddWithValue("@UnitMeasureName", unitMeasure.UnitMeasureName);
-                    cmd.Parameters.AddWithValue("@State", unitMeasure.State);
+                    cmd.Parameters.AddWithValue("@ColorName", color.ColorName);
                     cmd.Parameters.Add("@ReturnValue", SqlDbType.Int).Direction = ParameterDirection.ReturnValue;
 
                     using (var reader = await cmd.ExecuteReaderAsync())
                     {
                         if (await reader.ReadAsync())
                         {
-                            unitMeasureUpdated.Id = (int)reader["Id"];
-                            unitMeasureUpdated.UnitMeasureName = reader["UnitMeasureName"].ToString()!;
-                            unitMeasureUpdated.State = (bool)reader["State"];
+                            colorUpdated.Id = (int)reader["Id"];
+                            colorUpdated.ColorName = reader["ColorName"].ToString()!;
                         }
                     }
 
                     var retornedValue = Convert.ToInt32(cmd.Parameters["@ReturnValue"].Value);
 
-                    return new RepositoryResponse<UnitMeasure>
+                    return new RepositoryResponse<Color>
                     {
-                        Data = unitMeasureUpdated,
+                        Data = colorUpdated,
                         OperationStatusCode = retornedValue,
                     };
-
                 }
             }
             catch (SqlException ex)
             {
-                return new RepositoryResponse<UnitMeasure>
+                return new RepositoryResponse<Color>
                 {
                     Data = null,
                     OperationStatusCode = ex.Number,
                     Message = ex.Message
                 };
-
             }
             catch (Exception ex)
             {
-                return new RepositoryResponse<UnitMeasure>
+                return new RepositoryResponse<Color>
                 {
                     Data = null,
                     OperationStatusCode = -1,
@@ -311,7 +284,7 @@ namespace LibreriaDonCesar.DataAccess.Repositories
             }
         }
 
-        public async Task<RepositoryResponse<UnitMeasure>> SetStateAsync(int unitMeasureId, bool state)
+        public async Task<RepositoryResponse<Color>> SetStateAsync(int id, bool state)
         {
             try
             {
@@ -319,36 +292,35 @@ namespace LibreriaDonCesar.DataAccess.Repositories
                 {
                     await connection.OpenAsync();
 
-                    SqlCommand cmd = new SqlCommand("USP_UpdateUnitMeasureState", connection);
+                    SqlCommand cmd = new SqlCommand("USP_UpdateColorState", connection);
                     cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.AddWithValue("@Id", unitMeasureId);
+                    cmd.Parameters.AddWithValue("@Id", id);
                     cmd.Parameters.AddWithValue("@State", state);
 
-                    UnitMeasure unitMeasureUpdated = null;
+                    Color colorUpdated = null;
 
                     using (var reader = await cmd.ExecuteReaderAsync())
                     {
                         if (await reader.ReadAsync())
                         {
-                            unitMeasureUpdated = new UnitMeasure
+                            colorUpdated = new Color
                             {
                                 Id = (int)reader["Id"],
-                                UnitMeasureName = reader["UnitMeasureName"].ToString(),
-                                State = (bool)reader["State"]
+                                ColorName = reader["ColorName"].ToString()!
                             };
                         }
                     }
 
-                    return new RepositoryResponse<UnitMeasure>
+                    return new RepositoryResponse<Color>
                     {
-                        Data = unitMeasureUpdated,
-                        OperationStatusCode = unitMeasureUpdated != null ? 0 : 1
+                        Data = colorUpdated,
+                        OperationStatusCode = colorUpdated != null ? 0 : 1
                     };
                 }
             }
             catch (Exception ex)
             {
-                return new RepositoryResponse<UnitMeasure>
+                return new RepositoryResponse<Color>
                 {
                     Data = null,
                     OperationStatusCode = -1,
@@ -356,10 +328,5 @@ namespace LibreriaDonCesar.DataAccess.Repositories
                 };
             }
         }
-
-
-
-
-
     }
 }

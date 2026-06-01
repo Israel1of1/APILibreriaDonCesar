@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LibreriaDonCesar.DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0f8cf8ccd31c1de382c8331cbd4d14dc8689605")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+430d20a631e45e6fc01f111be1a78097006de50f")]
 [assembly: System.Reflection.AssemblyProductAttribute("LibreriaDonCesar.DataAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LibreriaDonCesar.DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

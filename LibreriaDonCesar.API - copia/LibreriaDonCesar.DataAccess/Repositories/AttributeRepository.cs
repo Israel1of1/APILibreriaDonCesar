@@ -150,7 +150,7 @@ namespace LibreriaDonCesar.DataAccess.Repositories
                         if (await reader.ReadAsync())
                         {
                             attributes.Id = (int)reader["Id"];
-                            attributes.AttributeName = reader["AttributeName"].ToString()!
+                            attributes.AttributeName = reader["AttributeName"].ToString()!;
                         }
 
                         else
