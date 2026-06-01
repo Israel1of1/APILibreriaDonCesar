@@ -12,6 +12,7 @@ using LibreriaDonCesar.DataAccess.Interfaces;
 using LibreriaDonCesar.DataAccess.Repositories;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
+using LibreriaDonCesar.DataAccess.Interfaces;
 using Attribute = LibreriaDonCesar.Core.Entities.Attribute;
 
 namespace LibreriaDonCesar.Business.Services
@@ -228,7 +229,7 @@ namespace LibreriaDonCesar.Business.Services
             {
                 var existingIdAttribute = await _attributeRepository.GetByIdAsync(id);
 
-                if (existingIdAttribute.Data!.Id == 0 && existingIdAttribute.Data.Attribute.IsNullOrEmpty())
+                if (existingIdAttribute.Data!.Id == 0 && existingIdAttribute.Data.AttributeName.IsNullOrEmpty())
                 {
                     return new ServiceResponse<Attribute>
                     {

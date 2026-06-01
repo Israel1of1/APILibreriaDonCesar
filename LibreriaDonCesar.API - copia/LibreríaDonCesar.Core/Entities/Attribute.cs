@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace LibreriaDonCesar.Core.Entities
 {
-    internal class Attribute
+    public class Attribute
     {
+        public int Id { get; set; }
+        public string AttributeName { get; set; }
     }
 }

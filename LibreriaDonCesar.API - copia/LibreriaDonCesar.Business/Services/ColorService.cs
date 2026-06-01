@@ -12,6 +12,8 @@ using LibreriaDonCesar.DataAccess.Interfaces;
 using LibreriaDonCesar.DataAccess.Repositories;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
+using LibreriaDonCesar.DataAccess.Interfaces;
+using Color = LibreriaDonCesar.Core.Entities.Color;
 
 namespace LibreriaDonCesar.Business.Services
 {
@@ -238,7 +240,7 @@ namespace LibreriaDonCesar.Business.Services
                 }
 
                 var existingNameColor = await _colorRepository.GetByNameAsync(color.ColorName);
-                if (existingNameColor.Data!.AttributeName != null && existingNameColor.Data.Id != id)
+                if (existingNameColor.Data!.ColorName != null && existingNameColor.Data.Id != id)
                 {
                     return new ServiceResponse<Color>
                     {
@@ -277,6 +279,42 @@ namespace LibreriaDonCesar.Business.Services
                 };
             }
 
+        }
+        public async Task<ServiceResponse<Color>> SetStateAsync(int id, bool state)
+        {
+            try
+            {
+                var result = await _colorRepository.SetStateAsync(id, state);
+
+                if (result.Data == null)
+                {
+                    return new ServiceResponse<Color>
+                    {
+                        Data = null,
+                        IsSuccess = false,
+                        MessageCode = MessageCodes.NotFound,
+                        Message = "No existe el color con el Id proporcionado"
+                    };
+                }
+
+                return new ServiceResponse<Color>
+                {
+                    Data = result.Data,
+                    IsSuccess = true,
+                    MessageCode = MessageCodes.Success,
+                    Message = state ? "Color activado con exito" : "Color desactivado con exito"
+                };
+            }
+            catch (Exception)
+            {
+                return new ServiceResponse<Color>
+                {
+                    Data = null,
+                    IsSuccess = false,
+                    MessageCode = MessageCodes.ErrorDataBase,
+                    Message = "Ocurrio un error inesperado"
+                };
+            }
         }
 
     }

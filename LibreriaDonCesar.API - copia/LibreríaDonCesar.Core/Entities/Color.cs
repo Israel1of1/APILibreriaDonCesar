@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace LibreriaDonCesar.Core.Entities
 {
-    internal class Color
+    public class Color
     {
+        public int Id { get; set; }
+        public string ColorName { get; set; }
     }
 }

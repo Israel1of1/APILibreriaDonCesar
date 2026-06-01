@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace LibreriaDonCesar.Core.Entities
 {
-    internal class Brand
+    public class Brand
     {
+        public int Id { get; set; }
+        public string BrandName { get; set; }
+        public bool State { get; set; }
     }
 }
