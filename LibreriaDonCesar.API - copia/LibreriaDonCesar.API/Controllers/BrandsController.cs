@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
+
 namespace LibreriaDonCesar.API.Controllers
 {
     [Route("api/[controller]")]
@@ -20,15 +21,14 @@ namespace LibreriaDonCesar.API.Controllers
             _brandService = brandService;
         }
 
-        [Authorize(Roles = "Vendedor, Administrador")]
         [HttpGet]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> GetAll([FromQuery] int pageIndex =1,[FromQuery] int pageSize = 10)
         {
-            var serviceResponse = await _brandService.GetAllAsync();
+            var serviceResponse = await _brandService.GetAllAsync(pageIndex,pageSize);
 
             if (serviceResponse.IsSuccess)
             {
-                var brandsDtoCollection = serviceResponse.Data.Select(b => new BrandDto
+                var brandsDtoCollection = serviceResponse.Data.Items.Select(b => new BrandDto
                 {
                     Id = b.Id,
                     BrandName = b.BrandName,
@@ -38,9 +38,15 @@ namespace LibreriaDonCesar.API.Controllers
                 var apiResponse = new ApiResponse<IEnumerable<BrandDto>>
                 {
                     Data = brandsDtoCollection,
-                    Meta = new { totalAmount = brandsDtoCollection.Count(), message = serviceResponse.Message }
+                    Meta = new
+                    {
+                        totalAmount = serviceResponse.Data.TotalCount,
+                        totalPages = serviceResponse.Data.TotalPages,
+                        pageNumber = serviceResponse.Data.PageNumber,
+                        pageSize = serviceResponse.Data.PageSize,
+                        message = serviceResponse.Message
+                    }
                 };
-
                 return Ok(apiResponse);
             }
 

@@ -6,16 +6,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Attribute = LibreriaDonCesar.Core.Entities.Attribute;
+using Attributes = LibreriaDonCesar.Core.Entities.Attributes;
 
 namespace LibreriaDonCesar.Business.Interfaces
 {
     public interface IAttributeService
     {
-        Task<ServiceResponse<IEnumerable<Attribute>>> GetAllAsync();
-        Task<ServiceResponse<Attribute>> GetByIdAsync(int id);
-        Task<ServiceResponse<Attribute>> GetByNameAsync(string name);
-        Task<ServiceResponse<Attribute>> CreateAsync(CreateAttributeDto newAttribute);
-        Task<ServiceResponse<Attribute>> UpdateAsync(int id, UpdateAttributeDto attribute);
+        Task<ServiceResponse<IEnumerable<Attributes>>> GetAllAsync();
+        Task<ServiceResponse<Attributes>> GetByIdAsync(int id);
+        Task<ServiceResponse<Attributes>> GetByNameAsync(string name);
+        Task<ServiceResponse<Attributes>> CreateAsync(CreateAttributeDto newAttribute);
+        Task<ServiceResponse<Attributes>> UpdateAsync(int id, UpdateAttributeDto attribute);
     }
 }

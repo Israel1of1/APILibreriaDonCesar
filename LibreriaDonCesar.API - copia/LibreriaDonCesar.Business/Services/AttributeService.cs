@@ -13,7 +13,7 @@ using LibreriaDonCesar.DataAccess.Repositories;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using LibreriaDonCesar.DataAccess.Interfaces;
-using Attribute = LibreriaDonCesar.Core.Entities.Attribute;
+using Attributes = LibreriaDonCesar.Core.Entities.Attributes;
 
 namespace LibreriaDonCesar.Business.Services
 {
@@ -27,13 +27,13 @@ namespace LibreriaDonCesar.Business.Services
             _attributeRepository = attributeRepository;
         }
 
-        public async Task<ServiceResponse<IEnumerable<Attribute>>> GetAllAsync()
+        public async Task<ServiceResponse<IEnumerable<Attributes>>> GetAllAsync()
         {
             var result = await _attributeRepository.GetAllAsync();
 
             if (result.OperationStatusCode == 0)
             {
-                return new ServiceResponse<IEnumerable<Attribute>>()
+                return new ServiceResponse<IEnumerable<Attributes>>()
                 {
                     Data = result.Data,
                     IsSuccess = true,
@@ -46,7 +46,7 @@ namespace LibreriaDonCesar.Business.Services
             switch (result.OperationStatusCode)
             {
                 case 0:
-                    return new ServiceResponse<IEnumerable<Attribute>>
+                    return new ServiceResponse<IEnumerable<Attributes>>
                     {
                         Data = result.Data,
                         IsSuccess = true,
@@ -55,7 +55,7 @@ namespace LibreriaDonCesar.Business.Services
                     };
 
                 case 50118:
-                    return new ServiceResponse<IEnumerable<Attribute>>
+                    return new ServiceResponse<IEnumerable<Attributes>>
                     {
                         Data = result.Data,
                         IsSuccess = true,
@@ -64,7 +64,7 @@ namespace LibreriaDonCesar.Business.Services
                     };
 
                 default:
-                    return new ServiceResponse<IEnumerable<Attribute>>
+                    return new ServiceResponse<IEnumerable<Attributes>>
                     {
                         Data = null,
                         IsSuccess = false,
@@ -76,7 +76,7 @@ namespace LibreriaDonCesar.Business.Services
 
         }
 
-        public async Task<ServiceResponse<Attribute>> GetByIdAsync(int id)
+        public async Task<ServiceResponse<Attributes>> GetByIdAsync(int id)
         {
             var repoResponse = await _attributeRepository.GetByIdAsync(id);
 
@@ -84,7 +84,7 @@ namespace LibreriaDonCesar.Business.Services
             {
                 if (repoResponse.OperationStatusCode == 0)
                 {
-                    return new ServiceResponse<Attribute>
+                    return new ServiceResponse<Attributes>
                     {
                         Data = repoResponse.Data,
                         IsSuccess = true,
@@ -95,7 +95,7 @@ namespace LibreriaDonCesar.Business.Services
                 switch (repoResponse.OperationStatusCode)
                 {
                     case 50028:
-                        return new ServiceResponse<Attribute>
+                        return new ServiceResponse<Attributes>
                         {
                             Data = null,
                             IsSuccess = false,
@@ -104,7 +104,7 @@ namespace LibreriaDonCesar.Business.Services
                         };
 
                     default:
-                        return new ServiceResponse<Attribute>
+                        return new ServiceResponse<Attributes>
                         {
                             Data = null,
                             IsSuccess = false,
@@ -115,7 +115,7 @@ namespace LibreriaDonCesar.Business.Services
             }
             catch (Exception)
             {
-                return new ServiceResponse<Attribute>
+                return new ServiceResponse<Attributes>
                 {
                     Data = null,
                     IsSuccess = false,
@@ -127,13 +127,13 @@ namespace LibreriaDonCesar.Business.Services
         }
 
 
-        public async Task<ServiceResponse<Attribute>> GetByNameAsync(string name)
+        public async Task<ServiceResponse<Attributes>> GetByNameAsync(string name)
         {
             var result = await _attributeRepository.GetByNameAsync(name);
 
             if (result.OperationStatusCode == 0)
             {
-                return new ServiceResponse<Attribute>
+                return new ServiceResponse<Attributes>
                 {
                     Data = result.Data,
                     IsSuccess = true,
@@ -162,7 +162,7 @@ namespace LibreriaDonCesar.Business.Services
 
             }
 
-            return new ServiceResponse<Attribute>
+            return new ServiceResponse<Attributes>
             {
                 Data = null,
                 IsSuccess = false,
@@ -172,7 +172,7 @@ namespace LibreriaDonCesar.Business.Services
         }
 
 
-        public async Task<ServiceResponse<Attribute>> CreateAsync(CreateAttributeDto newAttribute)
+        public async Task<ServiceResponse<Attributes>> CreateAsync(CreateAttributeDto newAttribute)
         {
             try
             {
@@ -181,7 +181,7 @@ namespace LibreriaDonCesar.Business.Services
 
                 if (existingAttribute.Data!.Id != 0 && !existingAttribute.Data.AttributeName.IsNullOrEmpty())
                 {
-                    return new ServiceResponse<Attribute>
+                    return new ServiceResponse<Attributes>
                     {
                         Data = null,
                         IsSuccess = false,
@@ -200,7 +200,7 @@ namespace LibreriaDonCesar.Business.Services
                 //llamado al metodo de repo
                 var result = await _attributeRepository.AddAsync(attribute);
 
-                return new ServiceResponse<Attribute>
+                return new ServiceResponse<Attributes>
                 {
                     Data = result.Data,
                     IsSuccess = true,
@@ -210,7 +210,7 @@ namespace LibreriaDonCesar.Business.Services
             }
             catch (Exception)
             {
-                return new ServiceResponse<Attribute>
+                return new ServiceResponse<Attributes>
                 {
                     Data = null,
                     IsSuccess = false,
@@ -222,7 +222,7 @@ namespace LibreriaDonCesar.Business.Services
             }
         }
 
-        public async Task<ServiceResponse<Attribute>> UpdateAsync(int id, UpdateAttributeDto attribute)
+        public async Task<ServiceResponse<Attributes>> UpdateAsync(int id, UpdateAttributeDto attribute)
         {
 
             try
@@ -231,7 +231,7 @@ namespace LibreriaDonCesar.Business.Services
 
                 if (existingIdAttribute.Data!.Id == 0 && existingIdAttribute.Data.AttributeName.IsNullOrEmpty())
                 {
-                    return new ServiceResponse<Attribute>
+                    return new ServiceResponse<Attributes>
                     {
                         Data = null,
                         IsSuccess = false,
@@ -243,7 +243,7 @@ namespace LibreriaDonCesar.Business.Services
                 var existingNameAttribute = await _attributeRepository.GetByNameAsync(attribute.AttributeName);
                 if (existingNameAttribute.Data!.AttributeName != null && existingNameAttribute.Data.Id != id)
                 {
-                    return new ServiceResponse<Attribute>
+                    return new ServiceResponse<Attributes>
                     {
                         Data = null,
                         IsSuccess = false,
@@ -261,7 +261,7 @@ namespace LibreriaDonCesar.Business.Services
                 //llamado al metodo de repo
                 var result = await _attributeRepository.UpdateAsync(id, dataAttribute);
 
-                return new ServiceResponse<Attribute>
+                return new ServiceResponse<Attributes>
                 {
                     Data = result.Data,
                     IsSuccess = true,
@@ -271,7 +271,7 @@ namespace LibreriaDonCesar.Business.Services
             }
             catch (Exception)
             {
-                return new ServiceResponse<Attribute>
+                return new ServiceResponse<Attributes>
                 {
                     Data = null,
                     IsSuccess = false,

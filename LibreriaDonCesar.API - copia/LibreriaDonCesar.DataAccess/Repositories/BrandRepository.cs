@@ -1,7 +1,9 @@
 ﻿using LibreriaDonCesar.Core.Common;
 using LibreriaDonCesar.Core.Entities;
+using LibreriaDonCesar.DataAccess.Contexto;
 using LibreriaDonCesar.DataAccess.Interfaces;
 using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
@@ -15,64 +17,26 @@ namespace LibreriaDonCesar.DataAccess.Repositories
     public class BrandRepository : IBrandRepository
     {
         private readonly string _connectionString;
+        private readonly ContextoBd _context;
 
-        public BrandRepository(IConfiguration configuration)
+        public BrandRepository(IConfiguration configuration, ContextoBd bd)
         {
             _connectionString = configuration.GetConnectionString("DefaultConnection")!;
+            _context = bd;
         }
 
-        public async Task<RepositoryResponse<IEnumerable<Brand>>> GetAllAsync()
+        public async Task<PaginationList<Brand>> GetAllAsync(int pageIndex = 1, int pageSize = 10)
         {
-            var brands = new List<Brand>();
-            var response = new RepositoryResponse<IEnumerable<Brand>>();
+            var totalCount = await _context.Brands.CountAsync();
+            var list = await _context.Brands
+                .AsNoTracking()
+                .Skip((pageIndex - 1) * pageSize)
+                .Take(pageSize)
+                .ToListAsync();
 
-            try
-            {
-                using (SqlConnection connection = new SqlConnection(_connectionString))
-                {
-                    await connection.OpenAsync();
+            return new PaginationList<Brand>(pageIndex, pageSize, totalCount, list);
 
-                    SqlCommand cmd = new SqlCommand("USP_GetAllBrands", connection);
-                    cmd.CommandType = System.Data.CommandType.StoredProcedure;
-                    cmd.Parameters.Add("@ReturnValue", SqlDbType.Int).Direction = ParameterDirection.ReturnValue;
-
-                    using (var reader = await cmd.ExecuteReaderAsync())
-                    {
-                        while (await reader.ReadAsync())
-                        {
-                            brands.Add(new Brand
-                            {
-                                Id = (int)reader["Id"],
-                                BrandName = reader["BrandName"].ToString()!,
-                                State = (bool)reader["State"]
-                            });
-                        }
-                    }
-
-                    var returnedValue = Convert.ToInt32(cmd.Parameters["@ReturnValue"].Value);
-
-                    response.Data = brands;
-                    response.OperationStatusCode = returnedValue;
-                    response.Message = "Operacion exitosa";
-                }
-            }
-            catch (SqlException ex)
-            {
-                response.Data = null;
-                response.OperationStatusCode = ex.Number;
-            }
-            catch (Exception ex)
-            {
-                return new RepositoryResponse<IEnumerable<Brand>>
-                {
-                    Data = null,
-                    OperationStatusCode = -1,
-                    Message = ex.Message
-                };
-            }
-            return response;
         }
-
         public async Task<RepositoryResponse<Brand>> GetByIdAsync(int id)
         {
             var brandReturned = new Brand();

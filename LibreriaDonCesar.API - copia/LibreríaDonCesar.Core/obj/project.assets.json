@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreríaDonCesar.Core\\LibreriaDonCesar.Core.csproj",
+      "projectUniqueName": "C:\\VITOLO UNI\\APILibreriaDonCesar\\LibreriaDonCesar.API - copia\\LibreríaDonCesar.Core\\LibreriaDonCesar.Core.csproj",
       "projectName": "LibreriaDonCesar.Core",
-      "projectPath": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreríaDonCesar.Core\\LibreriaDonCesar.Core.csproj",
+      "projectPath": "C:\\VITOLO UNI\\APILibreriaDonCesar\\LibreriaDonCesar.API - copia\\LibreríaDonCesar.Core\\LibreriaDonCesar.Core.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreríaDonCesar.Core\\obj\\",
+      "outputPath": "C:\\VITOLO UNI\\APILibreriaDonCesar\\LibreriaDonCesar.API - copia\\LibreríaDonCesar.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -52,7 +52,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -68,12 +68,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.24, 8.0.24]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.24, 8.0.24]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.24, 8.0.24]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

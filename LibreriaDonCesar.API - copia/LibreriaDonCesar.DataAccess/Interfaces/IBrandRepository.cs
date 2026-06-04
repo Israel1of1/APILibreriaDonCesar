@@ -10,7 +10,7 @@ namespace LibreriaDonCesar.DataAccess.Interfaces
 {
     public interface IBrandRepository
     {
-        Task<RepositoryResponse<IEnumerable<Brand>>> GetAllAsync();
+        Task<PaginationList<Brand>> GetAllAsync(int pageIndex =1 , int pageSize = 10);
         Task<RepositoryResponse<Brand>> GetByIdAsync(int id);
         Task<RepositoryResponse<Brand>> GetByNameAsync(string name);
         Task<RepositoryResponse<Brand>> AddAsync(Brand brand);

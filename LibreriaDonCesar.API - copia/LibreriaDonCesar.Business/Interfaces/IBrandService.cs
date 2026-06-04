@@ -1,5 +1,6 @@
 ﻿using LibreriaDonCesar.Business.DTOs;
 using LibreriaDonCesar.core.Common;
+using LibreriaDonCesar.Core.Common;
 using LibreriaDonCesar.Core.Entities;
 using System;
 using System.Collections.Generic;
@@ -11,7 +12,7 @@ namespace LibreriaDonCesar.Business.Interfaces
 {
     public interface IBrandService
     {
-        Task<ServiceResponse<IEnumerable<Brand>>> GetAllAsync();
+        Task<ServiceResponse<PaginationList<Brand>>> GetAllAsync(int pageIndex = 1, int pageSize = 10);
         Task<ServiceResponse<Brand>> GetByIdAsync(int id);
         Task<ServiceResponse<Brand>> GetByNameAsync(string name);
         Task<ServiceResponse<Brand>> CreateAsync(CreateBrandDto newBrand);

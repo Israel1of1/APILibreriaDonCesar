@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using LibreriaDonCesar.Business.Interfaces;
 using LibreriaDonCesar.Business.DTOs;
-using Attribute = LibreriaDonCesar.Core.Entities.Attribute;
+using Attribute = LibreriaDonCesar.Core.Entities.Attributes;
 
 namespace LibreriaDonCesar.API.Controllers
 {

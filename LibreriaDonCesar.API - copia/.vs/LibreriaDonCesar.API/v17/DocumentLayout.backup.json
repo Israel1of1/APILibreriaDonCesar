@@ -1,192 +1,88 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\",
+  "WorkspaceRootPath": "C:\\VITOLO UNI\\APILibreriaDonCesar\\LibreriaDonCesar.API - copia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BF5B5D43-7820-4977-B041-5A9DA1B2FD3C}|LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\libreriadoncesar.api\\controllers\\inventorymovementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF5B5D43-7820-4977-B041-5A9DA1B2FD3C}|LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj|solutionrelative:libreriadoncesar.api\\controllers\\inventorymovementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF5B5D43-7820-4977-B041-5A9DA1B2FD3C}|LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj|c:\\vitolo uni\\apilibreriadoncesar\\libreriadoncesar.api - copia\\libreriadoncesar.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF5B5D43-7820-4977-B041-5A9DA1B2FD3C}|LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj|solutionrelative:libreriadoncesar.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF5B5D43-7820-4977-B041-5A9DA1B2FD3C}|LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\libreriadoncesar.api\\controllers\\colorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF5B5D43-7820-4977-B041-5A9DA1B2FD3C}|LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj|solutionrelative:libreriadoncesar.api\\controllers\\colorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06AEC9E3-20B2-4234-987B-74F635BE012A}|LibreriaDonCesar.DataAccess\\LibreriaDonCesar.DataAccess.csproj|c:\\vitolo uni\\apilibreriadoncesar\\libreriadoncesar.api - copia\\libreriadoncesar.dataaccess\\contexto\\contextobd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06AEC9E3-20B2-4234-987B-74F635BE012A}|LibreriaDonCesar.DataAccess\\LibreriaDonCesar.DataAccess.csproj|solutionrelative:libreriadoncesar.dataaccess\\contexto\\contextobd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF5B5D43-7820-4977-B041-5A9DA1B2FD3C}|LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\libreriadoncesar.api\\controllers\\brandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF5B5D43-7820-4977-B041-5A9DA1B2FD3C}|LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj|solutionrelative:libreriadoncesar.api\\controllers\\brandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8AEFE6A6-2D3A-4B98-8EB7-A118112C341C}|Librer\u00EDaDonCesar.Core\\LibreriaDonCesar.Core.csproj|c:\\vitolo uni\\apilibreriadoncesar\\libreriadoncesar.api - copia\\librer\u00EDadoncesar.core\\common\\paginationlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AEFE6A6-2D3A-4B98-8EB7-A118112C341C}|Librer\u00EDaDonCesar.Core\\LibreriaDonCesar.Core.csproj|solutionrelative:librer\u00EDadoncesar.core\\common\\paginationlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\libreriadoncesar.business\\services\\attributeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|solutionrelative:libreriadoncesar.business\\services\\attributeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF5B5D43-7820-4977-B041-5A9DA1B2FD3C}|LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\libreriadoncesar.api\\controllers\\attributescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF5B5D43-7820-4977-B041-5A9DA1B2FD3C}|LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj|solutionrelative:libreriadoncesar.api\\controllers\\attributescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06AEC9E3-20B2-4234-987B-74F635BE012A}|LibreriaDonCesar.DataAccess\\LibreriaDonCesar.DataAccess.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\libreriadoncesar.dataaccess\\repositories\\attributerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06AEC9E3-20B2-4234-987B-74F635BE012A}|LibreriaDonCesar.DataAccess\\LibreriaDonCesar.DataAccess.csproj|solutionrelative:libreriadoncesar.dataaccess\\repositories\\attributerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\libreriadoncesar.business\\services\\inventorymovementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|solutionrelative:libreriadoncesar.business\\services\\inventorymovementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\libreriadoncesar.business\\services\\colorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|solutionrelative:libreriadoncesar.business\\services\\colorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\libreriadoncesar.business\\services\\brandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|solutionrelative:libreriadoncesar.business\\services\\brandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF5B5D43-7820-4977-B041-5A9DA1B2FD3C}|LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\libreriadoncesar.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF5B5D43-7820-4977-B041-5A9DA1B2FD3C}|LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj|solutionrelative:libreriadoncesar.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06AEC9E3-20B2-4234-987B-74F635BE012A}|LibreriaDonCesar.DataAccess\\LibreriaDonCesar.DataAccess.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\libreriadoncesar.dataaccess\\repositories\\colorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06AEC9E3-20B2-4234-987B-74F635BE012A}|LibreriaDonCesar.DataAccess\\LibreriaDonCesar.DataAccess.csproj|solutionrelative:libreriadoncesar.dataaccess\\repositories\\colorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06AEC9E3-20B2-4234-987B-74F635BE012A}|LibreriaDonCesar.DataAccess\\LibreriaDonCesar.DataAccess.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\libreriadoncesar.dataaccess\\repositories\\brandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{06AEC9E3-20B2-4234-987B-74F635BE012A}|LibreriaDonCesar.DataAccess\\LibreriaDonCesar.DataAccess.csproj|c:\\vitolo uni\\apilibreriadoncesar\\libreriadoncesar.api - copia\\libreriadoncesar.dataaccess\\repositories\\brandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06AEC9E3-20B2-4234-987B-74F635BE012A}|LibreriaDonCesar.DataAccess\\LibreriaDonCesar.DataAccess.csproj|solutionrelative:libreriadoncesar.dataaccess\\repositories\\brandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06AEC9E3-20B2-4234-987B-74F635BE012A}|LibreriaDonCesar.DataAccess\\LibreriaDonCesar.DataAccess.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\libreriadoncesar.dataaccess\\interfaces\\iattributerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06AEC9E3-20B2-4234-987B-74F635BE012A}|LibreriaDonCesar.DataAccess\\LibreriaDonCesar.DataAccess.csproj|solutionrelative:libreriadoncesar.dataaccess\\interfaces\\iattributerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|c:\\vitolo uni\\apilibreriadoncesar\\libreriadoncesar.api - copia\\libreriadoncesar.business\\interfaces\\ibrandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|solutionrelative:libreriadoncesar.business\\interfaces\\ibrandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06AEC9E3-20B2-4234-987B-74F635BE012A}|LibreriaDonCesar.DataAccess\\LibreriaDonCesar.DataAccess.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\libreriadoncesar.dataaccess\\interfaces\\icolorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06AEC9E3-20B2-4234-987B-74F635BE012A}|LibreriaDonCesar.DataAccess\\LibreriaDonCesar.DataAccess.csproj|solutionrelative:libreriadoncesar.dataaccess\\interfaces\\icolorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06AEC9E3-20B2-4234-987B-74F635BE012A}|LibreriaDonCesar.DataAccess\\LibreriaDonCesar.DataAccess.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\libreriadoncesar.dataaccess\\interfaces\\ibrandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{06AEC9E3-20B2-4234-987B-74F635BE012A}|LibreriaDonCesar.DataAccess\\LibreriaDonCesar.DataAccess.csproj|c:\\vitolo uni\\apilibreriadoncesar\\libreriadoncesar.api - copia\\libreriadoncesar.dataaccess\\interfaces\\ibrandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06AEC9E3-20B2-4234-987B-74F635BE012A}|LibreriaDonCesar.DataAccess\\LibreriaDonCesar.DataAccess.csproj|solutionrelative:libreriadoncesar.dataaccess\\interfaces\\ibrandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06AEC9E3-20B2-4234-987B-74F635BE012A}|LibreriaDonCesar.DataAccess\\LibreriaDonCesar.DataAccess.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\libreriadoncesar.dataaccess\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06AEC9E3-20B2-4234-987B-74F635BE012A}|LibreriaDonCesar.DataAccess\\LibreriaDonCesar.DataAccess.csproj|solutionrelative:libreriadoncesar.dataaccess\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|c:\\vitolo uni\\apilibreriadoncesar\\libreriadoncesar.api - copia\\libreriadoncesar.business\\services\\brandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|solutionrelative:libreriadoncesar.business\\services\\brandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8AEFE6A6-2D3A-4B98-8EB7-A118112C341C}|Librer\u00EDaDonCesar.Core\\LibreriaDonCesar.Core.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\librer\u00EDadoncesar.core\\entities\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AEFE6A6-2D3A-4B98-8EB7-A118112C341C}|Librer\u00EDaDonCesar.Core\\LibreriaDonCesar.Core.csproj|solutionrelative:librer\u00EDadoncesar.core\\entities\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF5B5D43-7820-4977-B041-5A9DA1B2FD3C}|LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj|c:\\vitolo uni\\apilibreriadoncesar\\libreriadoncesar.api - copia\\libreriadoncesar.api\\controllers\\brandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF5B5D43-7820-4977-B041-5A9DA1B2FD3C}|LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj|solutionrelative:libreriadoncesar.api\\controllers\\brandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8AEFE6A6-2D3A-4B98-8EB7-A118112C341C}|Librer\u00EDaDonCesar.Core\\LibreriaDonCesar.Core.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\librer\u00EDadoncesar.core\\entities\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AEFE6A6-2D3A-4B98-8EB7-A118112C341C}|Librer\u00EDaDonCesar.Core\\LibreriaDonCesar.Core.csproj|solutionrelative:librer\u00EDadoncesar.core\\entities\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|c:\\vitolo uni\\apilibreriadoncesar\\libreriadoncesar.api - copia\\libreriadoncesar.business\\services\\attributeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|solutionrelative:libreriadoncesar.business\\services\\attributeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\libreriadoncesar.business\\interfaces\\icolorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|solutionrelative:libreriadoncesar.business\\interfaces\\icolorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06AEC9E3-20B2-4234-987B-74F635BE012A}|LibreriaDonCesar.DataAccess\\LibreriaDonCesar.DataAccess.csproj|c:\\vitolo uni\\apilibreriadoncesar\\libreriadoncesar.api - copia\\libreriadoncesar.dataaccess\\repositories\\attributerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06AEC9E3-20B2-4234-987B-74F635BE012A}|LibreriaDonCesar.DataAccess\\LibreriaDonCesar.DataAccess.csproj|solutionrelative:libreriadoncesar.dataaccess\\repositories\\attributerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8AEFE6A6-2D3A-4B98-8EB7-A118112C341C}|Librer\u00EDaDonCesar.Core\\LibreriaDonCesar.Core.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\librer\u00EDadoncesar.core\\entities\\attribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AEFE6A6-2D3A-4B98-8EB7-A118112C341C}|Librer\u00EDaDonCesar.Core\\LibreriaDonCesar.Core.csproj|solutionrelative:librer\u00EDadoncesar.core\\entities\\attribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF5B5D43-7820-4977-B041-5A9DA1B2FD3C}|LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj|c:\\vitolo uni\\apilibreriadoncesar\\libreriadoncesar.api - copia\\libreriadoncesar.api\\controllers\\attributescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF5B5D43-7820-4977-B041-5A9DA1B2FD3C}|LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj|solutionrelative:libreriadoncesar.api\\controllers\\attributescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF5B5D43-7820-4977-B041-5A9DA1B2FD3C}|LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\libreriadoncesar.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF5B5D43-7820-4977-B041-5A9DA1B2FD3C}|LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj|solutionrelative:libreriadoncesar.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF5B5D43-7820-4977-B041-5A9DA1B2FD3C}|LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj|c:\\vitolo uni\\apilibreriadoncesar\\libreriadoncesar.api - copia\\libreriadoncesar.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BF5B5D43-7820-4977-B041-5A9DA1B2FD3C}|LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj|solutionrelative:libreriadoncesar.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF5B5D43-7820-4977-B041-5A9DA1B2FD3C}|LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\libreriadoncesar.api\\controllers\\inventoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF5B5D43-7820-4977-B041-5A9DA1B2FD3C}|LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj|solutionrelative:libreriadoncesar.api\\controllers\\inventoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF5B5D43-7820-4977-B041-5A9DA1B2FD3C}|LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj|c:\\vitolo uni\\apilibreriadoncesar\\libreriadoncesar.api - copia\\libreriadoncesar.api\\libreriadoncesar.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BF5B5D43-7820-4977-B041-5A9DA1B2FD3C}|LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj|solutionrelative:libreriadoncesar.api\\libreriadoncesar.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF5B5D43-7820-4977-B041-5A9DA1B2FD3C}|LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\libreriadoncesar.api\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF5B5D43-7820-4977-B041-5A9DA1B2FD3C}|LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj|solutionrelative:libreriadoncesar.api\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF5B5D43-7820-4977-B041-5A9DA1B2FD3C}|LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj|c:\\vitolo uni\\apilibreriadoncesar\\libreriadoncesar.api - copia\\libreriadoncesar.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF5B5D43-7820-4977-B041-5A9DA1B2FD3C}|LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj|solutionrelative:libreriadoncesar.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\libreriadoncesar.business\\interfaces\\iinventorymovementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|solutionrelative:libreriadoncesar.business\\interfaces\\iinventorymovementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF5B5D43-7820-4977-B041-5A9DA1B2FD3C}|LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj|c:\\vitolo uni\\apilibreriadoncesar\\libreriadoncesar.api - copia\\libreriadoncesar.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF5B5D43-7820-4977-B041-5A9DA1B2FD3C}|LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj|solutionrelative:libreriadoncesar.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF5B5D43-7820-4977-B041-5A9DA1B2FD3C}|LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\libreriadoncesar.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF5B5D43-7820-4977-B041-5A9DA1B2FD3C}|LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj|solutionrelative:libreriadoncesar.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06AEC9E3-20B2-4234-987B-74F635BE012A}|LibreriaDonCesar.DataAccess\\LibreriaDonCesar.DataAccess.csproj|c:\\vitolo uni\\apilibreriadoncesar\\libreriadoncesar.api - copia\\libreriadoncesar.dataaccess\\libreriadoncesar.dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{06AEC9E3-20B2-4234-987B-74F635BE012A}|LibreriaDonCesar.DataAccess\\LibreriaDonCesar.DataAccess.csproj|solutionrelative:libreriadoncesar.dataaccess\\libreriadoncesar.dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06AEC9E3-20B2-4234-987B-74F635BE012A}|LibreriaDonCesar.DataAccess\\LibreriaDonCesar.DataAccess.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\libreriadoncesar.dataaccess\\repositories\\inventorymovementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06AEC9E3-20B2-4234-987B-74F635BE012A}|LibreriaDonCesar.DataAccess\\LibreriaDonCesar.DataAccess.csproj|solutionrelative:libreriadoncesar.dataaccess\\repositories\\inventorymovementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06AEC9E3-20B2-4234-987B-74F635BE012A}|LibreriaDonCesar.DataAccess\\LibreriaDonCesar.DataAccess.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\libreriadoncesar.dataaccess\\interfaces\\iinventorymovementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06AEC9E3-20B2-4234-987B-74F635BE012A}|LibreriaDonCesar.DataAccess\\LibreriaDonCesar.DataAccess.csproj|solutionrelative:libreriadoncesar.dataaccess\\interfaces\\iinventorymovementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\libreriadoncesar.business\\dtos\\inventorymovementdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|solutionrelative:libreriadoncesar.business\\dtos\\inventorymovementdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8AEFE6A6-2D3A-4B98-8EB7-A118112C341C}|Librer\u00EDaDonCesar.Core\\LibreriaDonCesar.Core.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\librer\u00EDadoncesar.core\\entities\\inventorymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AEFE6A6-2D3A-4B98-8EB7-A118112C341C}|Librer\u00EDaDonCesar.Core\\LibreriaDonCesar.Core.csproj|solutionrelative:librer\u00EDadoncesar.core\\entities\\inventorymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\libreriadoncesar.business\\dtos\\updatecolordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|solutionrelative:libreriadoncesar.business\\dtos\\updatecolordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\libreriadoncesar.business\\dtos\\colordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|solutionrelative:libreriadoncesar.business\\dtos\\colordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\libreriadoncesar.business\\interfaces\\iinventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|solutionrelative:libreriadoncesar.business\\interfaces\\iinventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\libreriadoncesar.business\\dtos\\createinventorymovementdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|solutionrelative:libreriadoncesar.business\\dtos\\createinventorymovementdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\libreriadoncesar.business\\dtos\\updatebranddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|solutionrelative:libreriadoncesar.business\\dtos\\updatebranddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\libreriadoncesar.business\\dtos\\createbranddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|solutionrelative:libreriadoncesar.business\\dtos\\createbranddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\libreriadoncesar.business\\dtos\\branddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|solutionrelative:libreriadoncesar.business\\dtos\\branddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\libreriadoncesar.business\\dtos\\createcolordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|solutionrelative:libreriadoncesar.business\\dtos\\createcolordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\libreriadoncesar.business\\dtos\\updateattributedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|solutionrelative:libreriadoncesar.business\\dtos\\updateattributedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\libreriadoncesar.business\\dtos\\attributedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|solutionrelative:libreriadoncesar.business\\dtos\\attributedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\libreriadoncesar.business\\dtos\\createattributedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|solutionrelative:libreriadoncesar.business\\dtos\\createattributedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\libreriadoncesar.business\\dtos\\createcustomerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|solutionrelative:libreriadoncesar.business\\dtos\\createcustomerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\libreriadoncesar.business\\dtos\\createunitmeasuredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|solutionrelative:libreriadoncesar.business\\dtos\\createunitmeasuredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|c:\\users\\user\\downloads\\libreria don cesar api\\libreriadoncesar.api - copia\\libreriadoncesar.business\\dtos\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1604D6B4-03BA-42EE-8FDB-38927CCC8BF2}|LibreriaDonCesar.Business\\LibreriaDonCesar.Business.csproj|solutionrelative:libreriadoncesar.business\\dtos\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF5B5D43-7820-4977-B041-5A9DA1B2FD3C}|LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj|c:\\vitolo uni\\apilibreriadoncesar\\libreriadoncesar.api - copia\\libreriadoncesar.api\\libreriadoncesar.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{BF5B5D43-7820-4977-B041-5A9DA1B2FD3C}|LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj|solutionrelative:libreriadoncesar.api\\libreriadoncesar.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 100,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "Name": "ST:0:0:{d84ee353-0bef-5a41-a649-8f89aca5d84d}"
             },
             {
               "$type": "Bookmark",
@@ -194,524 +90,219 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AttributeService.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\Services\\AttributeService.cs",
-              "RelativeDocumentMoniker": "LibreriaDonCesar.Business\\Services\\AttributeService.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\Services\\AttributeService.cs",
-              "RelativeToolTip": "LibreriaDonCesar.Business\\Services\\AttributeService.cs",
-              "ViewState": "AgIAAN4AAAAAAAAAAAAowOcAAABfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T05:24:22.461Z",
-              "EditorCaption": ""
+              "DocumentIndex": 12,
+              "Title": "LibreriaDonCesar.API.csproj",
+              "DocumentMoniker": "C:\\VITOLO UNI\\APILibreriaDonCesar\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj",
+              "RelativeDocumentMoniker": "LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj",
+              "ToolTip": "C:\\VITOLO UNI\\APILibreriaDonCesar\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj",
+              "RelativeToolTip": "LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-04T15:45:35.439Z"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BrandsController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.API\\Controllers\\BrandsController.cs",
-              "RelativeDocumentMoniker": "LibreriaDonCesar.API\\Controllers\\BrandsController.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.API\\Controllers\\BrandsController.cs",
-              "RelativeToolTip": "LibreriaDonCesar.API\\Controllers\\BrandsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T05:05:06.679Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ColorsController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.API\\Controllers\\ColorsController.cs",
-              "RelativeDocumentMoniker": "LibreriaDonCesar.API\\Controllers\\ColorsController.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.API\\Controllers\\ColorsController.cs",
-              "RelativeToolTip": "LibreriaDonCesar.API\\Controllers\\ColorsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T04:57:32.174Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "InventoryMovementsController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.API\\Controllers\\InventoryMovementsController.cs",
-              "RelativeDocumentMoniker": "LibreriaDonCesar.API\\Controllers\\InventoryMovementsController.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.API\\Controllers\\InventoryMovementsController.cs",
-              "RelativeToolTip": "LibreriaDonCesar.API\\Controllers\\InventoryMovementsController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAADwvxEAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T03:42:09.893Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AttributesController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.API\\Controllers\\AttributesController.cs",
-              "RelativeDocumentMoniker": "LibreriaDonCesar.API\\Controllers\\AttributesController.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.API\\Controllers\\AttributesController.cs",
-              "RelativeToolTip": "LibreriaDonCesar.API\\Controllers\\AttributesController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABIAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T04:45:32.017Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AttributeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.DataAccess\\Repositories\\AttributeRepository.cs",
-              "RelativeDocumentMoniker": "LibreriaDonCesar.DataAccess\\Repositories\\AttributeRepository.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.DataAccess\\Repositories\\AttributeRepository.cs",
-              "RelativeToolTip": "LibreriaDonCesar.DataAccess\\Repositories\\AttributeRepository.cs",
-              "ViewState": "AgIAAIgAAAAAAAAAAAAkwJgAAABbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T05:08:20.778Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "InventoryMovementService.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\Services\\InventoryMovementService.cs",
-              "RelativeDocumentMoniker": "LibreriaDonCesar.Business\\Services\\InventoryMovementService.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\Services\\InventoryMovementService.cs",
-              "RelativeToolTip": "LibreriaDonCesar.Business\\Services\\InventoryMovementService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-31T14:14:22.305Z"
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "BrandService.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\Services\\BrandService.cs",
-              "RelativeDocumentMoniker": "LibreriaDonCesar.Business\\Services\\BrandService.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\Services\\BrandService.cs",
-              "RelativeToolTip": "LibreriaDonCesar.Business\\Services\\BrandService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "Title": "AttributeService.cs",
+              "DocumentMoniker": "C:\\VITOLO UNI\\APILibreriaDonCesar\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\Services\\AttributeService.cs",
+              "RelativeDocumentMoniker": "LibreriaDonCesar.Business\\Services\\AttributeService.cs",
+              "ToolTip": "C:\\VITOLO UNI\\APILibreriaDonCesar\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\Services\\AttributeService.cs",
+              "RelativeToolTip": "LibreriaDonCesar.Business\\Services\\AttributeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T05:23:25.81Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ColorService.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\Services\\ColorService.cs",
-              "RelativeDocumentMoniker": "LibreriaDonCesar.Business\\Services\\ColorService.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\Services\\ColorService.cs",
-              "RelativeToolTip": "LibreriaDonCesar.Business\\Services\\ColorService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T04:52:48.393Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BrandRepository.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.DataAccess\\Repositories\\BrandRepository.cs",
-              "RelativeDocumentMoniker": "LibreriaDonCesar.DataAccess\\Repositories\\BrandRepository.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.DataAccess\\Repositories\\BrandRepository.cs",
-              "RelativeToolTip": "LibreriaDonCesar.DataAccess\\Repositories\\BrandRepository.cs",
-              "ViewState": "AgIAADEBAAAAAAAAAAAswFEBAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T05:09:38.454Z"
+              "WhenOpened": "2026-06-04T15:12:20.097Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.API\\Program.cs",
-              "RelativeDocumentMoniker": "LibreriaDonCesar.API\\Program.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.API\\Program.cs",
-              "RelativeToolTip": "LibreriaDonCesar.API\\Program.cs",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAAAIsAAAA3AAAAAAAAAA==",
+              "Title": "AttributeRepository.cs",
+              "DocumentMoniker": "C:\\VITOLO UNI\\APILibreriaDonCesar\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.DataAccess\\Repositories\\AttributeRepository.cs",
+              "RelativeDocumentMoniker": "LibreriaDonCesar.DataAccess\\Repositories\\AttributeRepository.cs",
+              "ToolTip": "C:\\VITOLO UNI\\APILibreriaDonCesar\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.DataAccess\\Repositories\\AttributeRepository.cs",
+              "RelativeToolTip": "LibreriaDonCesar.DataAccess\\Repositories\\AttributeRepository.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAAE8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T03:56:56.928Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ColorRepository.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.DataAccess\\Repositories\\ColorRepository.cs",
-              "RelativeDocumentMoniker": "LibreriaDonCesar.DataAccess\\Repositories\\ColorRepository.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.DataAccess\\Repositories\\ColorRepository.cs",
-              "RelativeToolTip": "LibreriaDonCesar.DataAccess\\Repositories\\ColorRepository.cs",
-              "ViewState": "AgIAACsBAAAAAAAAAAAswEsBAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T05:09:48.422Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IAttributeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.DataAccess\\Interfaces\\IAttributeRepository.cs",
-              "RelativeDocumentMoniker": "LibreriaDonCesar.DataAccess\\Interfaces\\IAttributeRepository.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.DataAccess\\Interfaces\\IAttributeRepository.cs",
-              "RelativeToolTip": "LibreriaDonCesar.DataAccess\\Interfaces\\IAttributeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T05:14:27.325Z"
+              "WhenOpened": "2026-06-04T15:07:29.907Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "IColorRepository.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.DataAccess\\Interfaces\\IColorRepository.cs",
-              "RelativeDocumentMoniker": "LibreriaDonCesar.DataAccess\\Interfaces\\IColorRepository.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.DataAccess\\Interfaces\\IColorRepository.cs",
-              "RelativeToolTip": "LibreriaDonCesar.DataAccess\\Interfaces\\IColorRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\VITOLO UNI\\APILibreriaDonCesar\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "LibreriaDonCesar.API\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\VITOLO UNI\\APILibreriaDonCesar\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "LibreriaDonCesar.API\\Controllers\\UserController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T05:10:33.275Z"
+              "WhenOpened": "2026-06-04T15:06:44.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\VITOLO UNI\\APILibreriaDonCesar\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.API\\appsettings.json",
+              "RelativeDocumentMoniker": "LibreriaDonCesar.API\\appsettings.json",
+              "ToolTip": "C:\\VITOLO UNI\\APILibreriaDonCesar\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.API\\appsettings.json",
+              "RelativeToolTip": "LibreriaDonCesar.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-03T19:06:12.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AttributesController.cs",
+              "DocumentMoniker": "C:\\VITOLO UNI\\APILibreriaDonCesar\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.API\\Controllers\\AttributesController.cs",
+              "RelativeDocumentMoniker": "LibreriaDonCesar.API\\Controllers\\AttributesController.cs",
+              "ToolTip": "C:\\VITOLO UNI\\APILibreriaDonCesar\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.API\\Controllers\\AttributesController.cs",
+              "RelativeToolTip": "LibreriaDonCesar.API\\Controllers\\AttributesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T19:04:02.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\VITOLO UNI\\APILibreriaDonCesar\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "LibreriaDonCesar.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\VITOLO UNI\\APILibreriaDonCesar\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "LibreriaDonCesar.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T19:04:00.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BrandsController.cs",
+              "DocumentMoniker": "C:\\VITOLO UNI\\APILibreriaDonCesar\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.API\\Controllers\\BrandsController.cs",
+              "RelativeDocumentMoniker": "LibreriaDonCesar.API\\Controllers\\BrandsController.cs",
+              "ToolTip": "C:\\VITOLO UNI\\APILibreriaDonCesar\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.API\\Controllers\\BrandsController.cs",
+              "RelativeToolTip": "LibreriaDonCesar.API\\Controllers\\BrandsController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAmwEQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T19:03:08.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BrandService.cs",
+              "DocumentMoniker": "C:\\VITOLO UNI\\APILibreriaDonCesar\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\Services\\BrandService.cs",
+              "RelativeDocumentMoniker": "LibreriaDonCesar.Business\\Services\\BrandService.cs",
+              "ToolTip": "C:\\VITOLO UNI\\APILibreriaDonCesar\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\Services\\BrandService.cs",
+              "RelativeToolTip": "LibreriaDonCesar.Business\\Services\\BrandService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T18:47:03.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IBrandService.cs",
+              "DocumentMoniker": "C:\\VITOLO UNI\\APILibreriaDonCesar\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\Interfaces\\IBrandService.cs",
+              "RelativeDocumentMoniker": "LibreriaDonCesar.Business\\Interfaces\\IBrandService.cs",
+              "ToolTip": "C:\\VITOLO UNI\\APILibreriaDonCesar\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\Interfaces\\IBrandService.cs",
+              "RelativeToolTip": "LibreriaDonCesar.Business\\Interfaces\\IBrandService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T18:46:22.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BrandRepository.cs",
+              "DocumentMoniker": "C:\\VITOLO UNI\\APILibreriaDonCesar\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.DataAccess\\Repositories\\BrandRepository.cs",
+              "RelativeDocumentMoniker": "LibreriaDonCesar.DataAccess\\Repositories\\BrandRepository.cs",
+              "ToolTip": "C:\\VITOLO UNI\\APILibreriaDonCesar\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.DataAccess\\Repositories\\BrandRepository.cs",
+              "RelativeToolTip": "LibreriaDonCesar.DataAccess\\Repositories\\BrandRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T18:40:52.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IBrandRepository.cs",
+              "DocumentMoniker": "C:\\VITOLO UNI\\APILibreriaDonCesar\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.DataAccess\\Interfaces\\IBrandRepository.cs",
+              "RelativeDocumentMoniker": "LibreriaDonCesar.DataAccess\\Interfaces\\IBrandRepository.cs",
+              "ToolTip": "C:\\VITOLO UNI\\APILibreriaDonCesar\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.DataAccess\\Interfaces\\IBrandRepository.cs",
+              "RelativeToolTip": "LibreriaDonCesar.DataAccess\\Interfaces\\IBrandRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T18:39:19.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PaginationList.cs",
+              "DocumentMoniker": "C:\\VITOLO UNI\\APILibreriaDonCesar\\LibreriaDonCesar.API - copia\\Librer\u00EDaDonCesar.Core\\Common\\PaginationList.cs",
+              "RelativeDocumentMoniker": "Librer\u00EDaDonCesar.Core\\Common\\PaginationList.cs",
+              "ToolTip": "C:\\VITOLO UNI\\APILibreriaDonCesar\\LibreriaDonCesar.API - copia\\Librer\u00EDaDonCesar.Core\\Common\\PaginationList.cs",
+              "RelativeToolTip": "Librer\u00EDaDonCesar.Core\\Common\\PaginationList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T18:37:21.691Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "IBrandRepository.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.DataAccess\\Interfaces\\IBrandRepository.cs",
-              "RelativeDocumentMoniker": "LibreriaDonCesar.DataAccess\\Interfaces\\IBrandRepository.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.DataAccess\\Interfaces\\IBrandRepository.cs",
-              "RelativeToolTip": "LibreriaDonCesar.DataAccess\\Interfaces\\IBrandRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\VITOLO UNI\\APILibreriaDonCesar\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.API\\Program.cs",
+              "RelativeDocumentMoniker": "LibreriaDonCesar.API\\Program.cs",
+              "ToolTip": "C:\\VITOLO UNI\\APILibreriaDonCesar\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.API\\Program.cs",
+              "RelativeToolTip": "LibreriaDonCesar.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHoAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T05:10:35.768Z"
+              "WhenOpened": "2026-06-03T18:01:52.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContextoBd.cs",
+              "DocumentMoniker": "C:\\VITOLO UNI\\APILibreriaDonCesar\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.DataAccess\\Contexto\\ContextoBd.cs",
+              "RelativeDocumentMoniker": "LibreriaDonCesar.DataAccess\\Contexto\\ContextoBd.cs",
+              "ToolTip": "C:\\VITOLO UNI\\APILibreriaDonCesar\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.DataAccess\\Contexto\\ContextoBd.cs",
+              "RelativeToolTip": "LibreriaDonCesar.DataAccess\\Contexto\\ContextoBd.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T15:53:33.127Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.DataAccess\\Repositories\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "LibreriaDonCesar.DataAccess\\Repositories\\CategoryRepository.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.DataAccess\\Repositories\\CategoryRepository.cs",
-              "RelativeToolTip": "LibreriaDonCesar.DataAccess\\Repositories\\CategoryRepository.cs",
+              "Title": "LibreriaDonCesar.DataAccess.csproj",
+              "DocumentMoniker": "C:\\VITOLO UNI\\APILibreriaDonCesar\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.DataAccess\\LibreriaDonCesar.DataAccess.csproj",
+              "RelativeDocumentMoniker": "LibreriaDonCesar.DataAccess\\LibreriaDonCesar.DataAccess.csproj",
+              "ToolTip": "C:\\VITOLO UNI\\APILibreriaDonCesar\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.DataAccess\\LibreriaDonCesar.DataAccess.csproj",
+              "RelativeToolTip": "LibreriaDonCesar.DataAccess\\LibreriaDonCesar.DataAccess.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T05:09:56.282Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-03T15:48:48.531Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "Brand.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\Librer\u00EDaDonCesar.Core\\Entities\\Brand.cs",
-              "RelativeDocumentMoniker": "Librer\u00EDaDonCesar.Core\\Entities\\Brand.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\Librer\u00EDaDonCesar.Core\\Entities\\Brand.cs",
-              "RelativeToolTip": "Librer\u00EDaDonCesar.Core\\Entities\\Brand.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T05:03:25.031Z"
+              "Title": "LibreriaDonCesar.API",
+              "DocumentMoniker": "C:\\VITOLO UNI\\APILibreriaDonCesar\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj",
+              "RelativeDocumentMoniker": "LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj",
+              "ToolTip": "C:\\VITOLO UNI\\APILibreriaDonCesar\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj",
+              "RelativeToolTip": "LibreriaDonCesar.API\\LibreriaDonCesar.API.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-03T15:48:17.858Z"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Color.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\Librer\u00EDaDonCesar.Core\\Entities\\Color.cs",
-              "RelativeDocumentMoniker": "Librer\u00EDaDonCesar.Core\\Entities\\Color.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\Librer\u00EDaDonCesar.Core\\Entities\\Color.cs",
-              "RelativeToolTip": "Librer\u00EDaDonCesar.Core\\Entities\\Color.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T04:54:39.651Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IColorService.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\Interfaces\\IColorService.cs",
-              "RelativeDocumentMoniker": "LibreriaDonCesar.Business\\Interfaces\\IColorService.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\Interfaces\\IColorService.cs",
-              "RelativeToolTip": "LibreriaDonCesar.Business\\Interfaces\\IColorService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T04:52:41.91Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Attribute.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\Librer\u00EDaDonCesar.Core\\Entities\\Attribute.cs",
-              "RelativeDocumentMoniker": "Librer\u00EDaDonCesar.Core\\Entities\\Attribute.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\Librer\u00EDaDonCesar.Core\\Entities\\Attribute.cs",
-              "RelativeToolTip": "Librer\u00EDaDonCesar.Core\\Entities\\Attribute.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T04:48:04.439Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.API\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "LibreriaDonCesar.API\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.API\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "LibreriaDonCesar.API\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T04:46:32.781Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "InventoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.API\\Controllers\\InventoriesController.cs",
-              "RelativeDocumentMoniker": "LibreriaDonCesar.API\\Controllers\\InventoriesController.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.API\\Controllers\\InventoriesController.cs",
-              "RelativeToolTip": "LibreriaDonCesar.API\\Controllers\\InventoriesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T03:48:25.784Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "CustomersController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.API\\Controllers\\CustomersController.cs",
-              "RelativeDocumentMoniker": "LibreriaDonCesar.API\\Controllers\\CustomersController.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.API\\Controllers\\CustomersController.cs",
-              "RelativeToolTip": "LibreriaDonCesar.API\\Controllers\\CustomersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T04:46:35.357Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.API\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "LibreriaDonCesar.API\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.API\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "LibreriaDonCesar.API\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T03:56:13.179Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "IInventoryMovementService.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\Interfaces\\IInventoryMovementService.cs",
-              "RelativeDocumentMoniker": "LibreriaDonCesar.Business\\Interfaces\\IInventoryMovementService.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\Interfaces\\IInventoryMovementService.cs",
-              "RelativeToolTip": "LibreriaDonCesar.Business\\Interfaces\\IInventoryMovementService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T22:16:51.568Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "IInventoryMovementRepository.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.DataAccess\\Interfaces\\IInventoryMovementRepository.cs",
-              "RelativeDocumentMoniker": "LibreriaDonCesar.DataAccess\\Interfaces\\IInventoryMovementRepository.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.DataAccess\\Interfaces\\IInventoryMovementRepository.cs",
-              "RelativeToolTip": "LibreriaDonCesar.DataAccess\\Interfaces\\IInventoryMovementRepository.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-31T14:43:06.728Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "InventoryMovementRepository.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.DataAccess\\Repositories\\InventoryMovementRepository.cs",
-              "RelativeDocumentMoniker": "LibreriaDonCesar.DataAccess\\Repositories\\InventoryMovementRepository.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.DataAccess\\Repositories\\InventoryMovementRepository.cs",
-              "RelativeToolTip": "LibreriaDonCesar.DataAccess\\Repositories\\InventoryMovementRepository.cs",
-              "ViewState": "AgIAAMQAAAAAAAAAAAAkwBEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-31T14:42:02.647Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "InventoryMovementDto.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\DTOs\\InventoryMovementDto.cs",
-              "RelativeDocumentMoniker": "LibreriaDonCesar.Business\\DTOs\\InventoryMovementDto.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\DTOs\\InventoryMovementDto.cs",
-              "RelativeToolTip": "LibreriaDonCesar.Business\\DTOs\\InventoryMovementDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T22:03:17.458Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "InventoryMovement.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\Librer\u00EDaDonCesar.Core\\Entities\\InventoryMovement.cs",
-              "RelativeDocumentMoniker": "Librer\u00EDaDonCesar.Core\\Entities\\InventoryMovement.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\Librer\u00EDaDonCesar.Core\\Entities\\InventoryMovement.cs",
-              "RelativeToolTip": "Librer\u00EDaDonCesar.Core\\Entities\\InventoryMovement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T03:45:13.032Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "UpdateColorDto.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\DTOs\\UpdateColorDto.cs",
-              "RelativeDocumentMoniker": "LibreriaDonCesar.Business\\DTOs\\UpdateColorDto.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\DTOs\\UpdateColorDto.cs",
-              "RelativeToolTip": "LibreriaDonCesar.Business\\DTOs\\UpdateColorDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T19:58:45.126Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "ColorDto.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\DTOs\\ColorDto.cs",
-              "RelativeDocumentMoniker": "LibreriaDonCesar.Business\\DTOs\\ColorDto.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\DTOs\\ColorDto.cs",
-              "RelativeToolTip": "LibreriaDonCesar.Business\\DTOs\\ColorDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T19:50:16.846Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "IInventoryService.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\Interfaces\\IInventoryService.cs",
-              "RelativeDocumentMoniker": "LibreriaDonCesar.Business\\Interfaces\\IInventoryService.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\Interfaces\\IInventoryService.cs",
-              "RelativeToolTip": "LibreriaDonCesar.Business\\Interfaces\\IInventoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T22:21:01.654Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "CreateInventoryMovementDto.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\DTOs\\CreateInventoryMovementDto.cs",
-              "RelativeDocumentMoniker": "LibreriaDonCesar.Business\\DTOs\\CreateInventoryMovementDto.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\DTOs\\CreateInventoryMovementDto.cs",
-              "RelativeToolTip": "LibreriaDonCesar.Business\\DTOs\\CreateInventoryMovementDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T22:08:19.156Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "UpdateBrandDto.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\DTOs\\UpdateBrandDto.cs",
-              "RelativeDocumentMoniker": "LibreriaDonCesar.Business\\DTOs\\UpdateBrandDto.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\DTOs\\UpdateBrandDto.cs",
-              "RelativeToolTip": "LibreriaDonCesar.Business\\DTOs\\UpdateBrandDto.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T20:07:12.923Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "CreateBrandDto.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\DTOs\\CreateBrandDto.cs",
-              "RelativeDocumentMoniker": "LibreriaDonCesar.Business\\DTOs\\CreateBrandDto.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\DTOs\\CreateBrandDto.cs",
-              "RelativeToolTip": "LibreriaDonCesar.Business\\DTOs\\CreateBrandDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T20:04:53.611Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "BrandDto.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\DTOs\\BrandDto.cs",
-              "RelativeDocumentMoniker": "LibreriaDonCesar.Business\\DTOs\\BrandDto.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\DTOs\\BrandDto.cs",
-              "RelativeToolTip": "LibreriaDonCesar.Business\\DTOs\\BrandDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T20:03:27.25Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "CreateColorDto.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\DTOs\\CreateColorDto.cs",
-              "RelativeDocumentMoniker": "LibreriaDonCesar.Business\\DTOs\\CreateColorDto.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\DTOs\\CreateColorDto.cs",
-              "RelativeToolTip": "LibreriaDonCesar.Business\\DTOs\\CreateColorDto.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T19:55:55.92Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "CreateCustomerDto.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\DTOs\\CreateCustomerDto.cs",
-              "RelativeDocumentMoniker": "LibreriaDonCesar.Business\\DTOs\\CreateCustomerDto.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\DTOs\\CreateCustomerDto.cs",
-              "RelativeToolTip": "LibreriaDonCesar.Business\\DTOs\\CreateCustomerDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T19:52:07.031Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "CreateAttributeDto.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\DTOs\\CreateAttributeDto.cs",
-              "RelativeDocumentMoniker": "LibreriaDonCesar.Business\\DTOs\\CreateAttributeDto.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\DTOs\\CreateAttributeDto.cs",
-              "RelativeToolTip": "LibreriaDonCesar.Business\\DTOs\\CreateAttributeDto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T19:36:19.048Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "AttributeDto.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\DTOs\\AttributeDto.cs",
-              "RelativeDocumentMoniker": "LibreriaDonCesar.Business\\DTOs\\AttributeDto.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\DTOs\\AttributeDto.cs",
-              "RelativeToolTip": "LibreriaDonCesar.Business\\DTOs\\AttributeDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T19:34:03.844Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "UpdateAttributeDto.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\DTOs\\UpdateAttributeDto.cs",
-              "RelativeDocumentMoniker": "LibreriaDonCesar.Business\\DTOs\\UpdateAttributeDto.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\DTOs\\UpdateAttributeDto.cs",
-              "RelativeToolTip": "LibreriaDonCesar.Business\\DTOs\\UpdateAttributeDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T19:40:36.434Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "CreateUnitMeasureDto.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\DTOs\\CreateUnitMeasureDto.cs",
-              "RelativeDocumentMoniker": "LibreriaDonCesar.Business\\DTOs\\CreateUnitMeasureDto.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\DTOs\\CreateUnitMeasureDto.cs",
-              "RelativeToolTip": "LibreriaDonCesar.Business\\DTOs\\CreateUnitMeasureDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T19:52:03.506Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "CreateCategoryDto.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\DTOs\\CreateCategoryDto.cs",
-              "RelativeDocumentMoniker": "LibreriaDonCesar.Business\\DTOs\\CreateCategoryDto.cs",
-              "ToolTip": "C:\\Users\\USER\\Downloads\\LIBRERIA DON CESAR API\\LibreriaDonCesar.API - copia\\LibreriaDonCesar.Business\\DTOs\\CreateCategoryDto.cs",
-              "RelativeToolTip": "LibreriaDonCesar.Business\\DTOs\\CreateCategoryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T19:51:57.335Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

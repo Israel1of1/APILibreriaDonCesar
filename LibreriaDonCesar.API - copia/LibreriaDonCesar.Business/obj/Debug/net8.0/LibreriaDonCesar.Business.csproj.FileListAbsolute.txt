@@ -52,3 +52,21 @@ C:\Users\USER\Downloads\LIBRERIA DON CESAR API\LibreriaDonCesar.API - copia\Libr
 C:\Users\USER\Downloads\LIBRERIA DON CESAR API\LibreriaDonCesar.API - copia\LibreriaDonCesar.Business\bin\Debug\net8.0\LibreriaDonCesar.Core.pdb
 C:\Users\USER\Downloads\LIBRERIA DON CESAR API\LibreriaDonCesar.API - copia\LibreriaDonCesar.Business\obj\Debug\net8.0\Libreria.C3D8A23C.Up2Date
 C:\Users\USER\Downloads\LIBRERIA DON CESAR API\LibreriaDonCesar.API - copia\LibreriaDonCesar.Business\obj\Debug\net8.0\ref\LibreriaDonCesar.Business.dll
+C:\VITOLO UNI\APILibreriaDonCesar\LibreriaDonCesar.API - copia\LibreriaDonCesar.Business\obj\Debug\net8.0\LibreriaDonCesar.Business.csproj.AssemblyReference.cache
+C:\VITOLO UNI\APILibreriaDonCesar\LibreriaDonCesar.API - copia\LibreriaDonCesar.Business\obj\Debug\net8.0\LibreriaDonCesar.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\VITOLO UNI\APILibreriaDonCesar\LibreriaDonCesar.API - copia\LibreriaDonCesar.Business\obj\Debug\net8.0\LibreriaDonCesar.Business.AssemblyInfoInputs.cache
+C:\VITOLO UNI\APILibreriaDonCesar\LibreriaDonCesar.API - copia\LibreriaDonCesar.Business\obj\Debug\net8.0\LibreriaDonCesar.Business.AssemblyInfo.cs
+C:\VITOLO UNI\APILibreriaDonCesar\LibreriaDonCesar.API - copia\LibreriaDonCesar.Business\obj\Debug\net8.0\LibreriaDonCesar.Business.csproj.CoreCompileInputs.cache
+C:\VITOLO UNI\APILibreriaDonCesar\LibreriaDonCesar.API - copia\LibreriaDonCesar.Business\obj\Debug\net8.0\LibreriaDonCesar.Business.sourcelink.json
+C:\VITOLO UNI\APILibreriaDonCesar\LibreriaDonCesar.API - copia\LibreriaDonCesar.Business\obj\Debug\net8.0\LibreriaDonCesar.Business.dll
+C:\VITOLO UNI\APILibreriaDonCesar\LibreriaDonCesar.API - copia\LibreriaDonCesar.Business\obj\Debug\net8.0\refint\LibreriaDonCesar.Business.dll
+C:\VITOLO UNI\APILibreriaDonCesar\LibreriaDonCesar.API - copia\LibreriaDonCesar.Business\obj\Debug\net8.0\LibreriaDonCesar.Business.pdb
+C:\VITOLO UNI\APILibreriaDonCesar\LibreriaDonCesar.API - copia\LibreriaDonCesar.Business\bin\Debug\net8.0\LibreriaDonCesar.Business.deps.json
+C:\VITOLO UNI\APILibreriaDonCesar\LibreriaDonCesar.API - copia\LibreriaDonCesar.Business\bin\Debug\net8.0\LibreriaDonCesar.Business.dll
+C:\VITOLO UNI\APILibreriaDonCesar\LibreriaDonCesar.API - copia\LibreriaDonCesar.Business\bin\Debug\net8.0\LibreriaDonCesar.Business.pdb
+C:\VITOLO UNI\APILibreriaDonCesar\LibreriaDonCesar.API - copia\LibreriaDonCesar.Business\bin\Debug\net8.0\LibreriaDonCesar.Core.dll
+C:\VITOLO UNI\APILibreriaDonCesar\LibreriaDonCesar.API - copia\LibreriaDonCesar.Business\bin\Debug\net8.0\LibreriaDonCesar.DataAccess.dll
+C:\VITOLO UNI\APILibreriaDonCesar\LibreriaDonCesar.API - copia\LibreriaDonCesar.Business\bin\Debug\net8.0\LibreriaDonCesar.DataAccess.pdb
+C:\VITOLO UNI\APILibreriaDonCesar\LibreriaDonCesar.API - copia\LibreriaDonCesar.Business\bin\Debug\net8.0\LibreriaDonCesar.Core.pdb
+C:\VITOLO UNI\APILibreriaDonCesar\LibreriaDonCesar.API - copia\LibreriaDonCesar.Business\obj\Debug\net8.0\Libreria.C3D8A23C.Up2Date
+C:\VITOLO UNI\APILibreriaDonCesar\LibreriaDonCesar.API - copia\LibreriaDonCesar.Business\obj\Debug\net8.0\ref\LibreriaDonCesar.Business.dll

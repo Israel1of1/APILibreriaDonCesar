@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LibreriaDonCesar.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+430d20a631e45e6fc01f111be1a78097006de50f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+909a618d36c95eb61ae66ec04c52d528f03a2c47")]
 [assembly: System.Reflection.AssemblyProductAttribute("LibreriaDonCesar.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LibreriaDonCesar.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

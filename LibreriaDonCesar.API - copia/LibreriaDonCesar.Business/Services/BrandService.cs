@@ -26,53 +26,29 @@ namespace LibreriaDonCesar.Business.Services
             _brandRepository = brandRepository;
         }
 
-        public async Task<ServiceResponse<IEnumerable<Brand>>> GetAllAsync()
+        public async Task<ServiceResponse<PaginationList<Brand>>> GetAllAsync(int pageIndex = 1, int pageSize = 10)
         {
-            var result = await _brandRepository.GetAllAsync();
-
-            if (result.OperationStatusCode == 0)
+            var pagination = await _brandRepository.GetAllAsync(pageIndex, pageSize);
+            if (!pagination.Items.Any())
             {
-                return new ServiceResponse<IEnumerable<Brand>>()
-                {
-                    Data = result.Data,
-                    IsSuccess = true,
-                    MessageCode = MessageCodes.Success,
-                    Message = "Operacion exitosa"
+                return new ServiceResponse<PaginationList<Brand>> {
+                    Data = null,
+                    IsSuccess = false,
+                    MessageCode = MessageCodes.NoData,
+                    Message = "No se encontraron marcas"
+              
                 };
             }
 
+            
 
-            switch (result.OperationStatusCode)
+            return new ServiceResponse<PaginationList<Brand>>
             {
-                case 0:
-                    return new ServiceResponse<IEnumerable<Brand>>
-                    {
-                        Data = result.Data,
-                        IsSuccess = true,
-                        MessageCode = MessageCodes.Success,
-                        Message = "Éxito"
-                    };
-
-                case 50118:
-                    return new ServiceResponse<IEnumerable<Brand>>
-                    {
-                        Data = result.Data,
-                        IsSuccess = true,
-                        MessageCode = MessageCodes.Success,
-                        Message = "No hay registros disponibles"
-                    };
-
-                default:
-                    return new ServiceResponse<IEnumerable<Brand>>
-                    {
-                        Data = null,
-                        IsSuccess = false,
-                        MessageCode = MessageCodes.ErrorDataBase,
-                        Message = result.Message ?? "Ocurrió un error inesperado"
-                    };
-
-            }
-
+                Data = pagination,
+                IsSuccess = true,
+                MessageCode = MessageCodes.Success,
+                Message = "Operación exitosa"
+            };
         }
 
         public async Task<ServiceResponse<Brand>> GetByIdAsync(int id)

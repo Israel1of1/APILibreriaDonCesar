@@ -3,6 +3,7 @@ using LibreriaDonCesar.Business.Services;
 using LibreriaDonCesar.DataAccess.Interfaces;
 using LibreriaDonCesar.DataAccess.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
@@ -118,7 +119,8 @@ builder.Services.AddAuthentication(options =>
 
 });
 
-
+builder.Services.AddDbContext<LibreriaDonCesar.DataAccess.Contexto.ContextoBd>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 
